@@ -13,7 +13,7 @@ This repository provides the implementation of **TMBclaw**, a prognostic predict
 - `results/`  
   Stores outputs such as predictions and plots.
 
-- `run_TMB_MTGraph.py`  
+- `run_TMBclaw.py`  
   Main script to train and evaluate TMBclaw.
 
 ## Getting Started
