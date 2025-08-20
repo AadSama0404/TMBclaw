@@ -203,9 +203,9 @@ def Cross_Validation(raw_data):
         "group": pd.Series(group_cv).astype(int),
         "fold": fold_cv
     })
-    result_cv.to_csv('../results/Reg_MTL.csv', index=False)
-    Metrics_Calculation('../results/Reg_MTL.csv')
-    KM_Plot('../results/Reg_MTL.csv')
+    result_cv.to_csv('../results/Reg_MLP.csv', index=False)
+    Metrics_Calculation('../results/Reg_MLP.csv')
+    KM_Plot('../results/Reg_MLP.csv')
 
 
 if __name__ == "__main__":
